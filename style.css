@@ -1,0 +1,73 @@
+/* General Body Styling */
+body {
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/*Container Styling*/
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Heading  */
+h2 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Table Styling */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background: #343a40 !important;
+    color: white !important;
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* User Image Styling */
+.table img {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding: 2px;
+}
+
+/*Buttons */
+.btn {
+    padding: 5px 12px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-warning:hover {
+    background: #e0a800;
+}
+
+.btn-danger:hover {
+    background: #c82333;
+}
+
+/* Footer Styling */
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
